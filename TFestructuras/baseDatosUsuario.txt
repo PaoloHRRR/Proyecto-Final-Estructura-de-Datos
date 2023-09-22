@@ -1,0 +1,3 @@
+admin passwordAdmin Admin
+desarrollador passwordDesarrollador Desarrollador
+cliente passwordCliente Cliente
