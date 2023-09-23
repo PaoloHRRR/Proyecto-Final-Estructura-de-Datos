@@ -5,9 +5,6 @@ using namespace System;
 using namespace std;
 
 int main() {
-    //Prueba de cargarUsuarios() [Usando Lector singleton]
-    Lista<Usuario*>* objLista = new Lista<Usuario*>();
-    Lector<Usuario*>& objLector = Lector<Usuario*>::getInstancia();
 
     //PRUEBA DE PILAS
     Usuario* aux = new Usuario();
