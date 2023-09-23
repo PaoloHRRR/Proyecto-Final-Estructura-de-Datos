@@ -1,4 +1,6 @@
 #pragma once
+#include "iostream"
+#include "string"
 #include "functional"
 #include "Nodo.h"
 using namespace std;
@@ -30,5 +32,20 @@ public:
             aux = aux->sig;
         }
         return aux->elem;
+    }
+
+    T buscarUsuario(string nombreUsuario, string contrasena) {
+        Nodo<T>* actual = ini;
+
+        while (actual != nullptr) {
+            Usuario usuario = actual->elem; // Suponiendo que Usuario es el tipo de T
+            if (usuario.getNombreUsuario() == nombreUsuario && usuario.getContrasena() == contrasena) {
+                return actual->elem;
+            }
+
+            actual = actual->sig;
+        }
+
+        return nullptr;
     }
 };

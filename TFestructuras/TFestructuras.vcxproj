@@ -131,9 +131,11 @@
     <ClInclude Include="Cola.h" />
     <ClInclude Include="Lector.h" />
     <ClInclude Include="Lista.h" />
+    <ClInclude Include="Login.h" />
     <ClInclude Include="Nodo.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Pila.h" />
+    <ClInclude Include="Prueba.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="Usuario.h" />
   </ItemGroup>

@@ -47,6 +47,12 @@
     <ClInclude Include="Cola.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Prueba.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Login.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TFestructuras.cpp">
